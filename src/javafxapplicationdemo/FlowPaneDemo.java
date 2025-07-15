@@ -17,7 +17,7 @@ public class FlowPaneDemo extends Application {
         flowPane.setPrefWrapLength(300); // max width before wrapping
 
         // Add multiple buttons to demonstrate wrapping
-        for (int i = 1; i <= 12; i++) {
+        for (int i = 1; i <= 40; i++) {
             Button button = new Button("Button " + i);
             flowPane.getChildren().add(button);
         }
